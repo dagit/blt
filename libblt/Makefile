@@ -55,6 +55,7 @@ endif
 ifeq ($(UNAME_S),Darwin)
     CFLAGS += -DOSX
     CXXFLAGS += -DOSX
+    LIBS += -lgmp
 endif
 
 
